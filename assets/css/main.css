@@ -2107,6 +2107,8 @@ input, select, textarea {
 			float: left;
 			margin: 0 2em 2em 0;
 			top: 0.25em;
+			max-width:200px;
+			max-height:200px;
 		}
 
 		.image.right {
@@ -2116,7 +2118,7 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 20%;
 		}
 
 			.image.left img, .image.right img {
